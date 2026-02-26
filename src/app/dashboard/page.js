@@ -1,5 +1,6 @@
 import Url from "@/lib/Url";
 import { connectDB } from "@/lib/db";
+export const dynamic = "force-dynamic";
 
 export default async function Dashboard() {
   await connectDB();
