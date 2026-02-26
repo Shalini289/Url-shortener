@@ -40,3 +40,36 @@ a {
     color-scheme: dark;
   }
 }
+/* ===== Premium UI Enhancements ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #64748b;
+}
+
+input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.25);
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* mobile polish */
+@media (max-width: 520px) {
+  h1 {
+    font-size: 24px !important;
+  }
+}
