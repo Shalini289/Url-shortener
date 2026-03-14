@@ -63,9 +63,7 @@ export default function Home() {
     <div style={styles.wrapper}>
       <div style={styles.card}>
         <h1 style={styles.title}>Smart URL Shortener</h1>
-        <p style={styles.subtitle}>
-          Fast • Scalable • FAANG-Level Project
-        </p>
+       
 
         {/* URL input */}
         <input
